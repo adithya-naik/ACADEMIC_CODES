@@ -19,7 +19,6 @@ int main() {
     int memory[frames];
     int front = 0; // Points to the oldest page
     int pageFaults = 0;
-    int count = 0; // Number of pages in memory
 
     // Initialize memory with -1 (empty)
     for (int i = 0; i < frames; i++) {
